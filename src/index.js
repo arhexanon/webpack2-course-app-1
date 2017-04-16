@@ -1,6 +1,7 @@
 /**
  * Created by arhexanon on 14-4-17.
  */
-const sum = require("./sum");
+import sum from "./sum";
+import "./image_viewer"
 
-console.log(sum(8,9));
+console.log(sum(948,9));
