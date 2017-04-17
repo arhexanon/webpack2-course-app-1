@@ -18,7 +18,8 @@ imageSmall.src = small;
 document.body.appendChild(imageSmall);
 
 
-const imageBig = document.createElement("img");
-imageBig.src =  big;
-document.body.appendChild(imageBig);
-
+export default () => {
+    const imageBig = document.createElement("img");
+    imageBig.src = big;
+    document.body.appendChild(imageBig);
+};
